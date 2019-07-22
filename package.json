@@ -1,0 +1,25 @@
+{
+  "name": "scblogviewcounter",
+  "version": "1.0.0",
+  "description": "SAP Community Blog View Counter",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon -r index.js --ignore db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdereli/SCBlogViewCounter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdereli/SCBlogViewCounter/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
